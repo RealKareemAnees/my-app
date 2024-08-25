@@ -20,6 +20,7 @@ const App = () => {
         امسك ايدي
       </button>
       {overlayVisible && (
+        //@ts-ignore
         <div style={overlayStyle}>
           <div style={textStyle}>يا وسخ</div>
         </div>
