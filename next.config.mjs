@@ -1,6 +1,6 @@
-// next.config.js
-module.exports = {
-  typescript: {
-    ignoreDevErrors: true, // Ignores type errors during development
-  },
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  ignoreDevErrors: true,
 };
+
+export default nextConfig;
